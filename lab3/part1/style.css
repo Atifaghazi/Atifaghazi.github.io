@@ -26,3 +26,8 @@ h2 {
   font-style: italic;
   font-size: 1.5rem;
 }
+
+.job-title {
+  color: darkslategray;
+  font-weight: bold;
+}
