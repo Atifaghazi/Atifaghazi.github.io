@@ -51,3 +51,16 @@ h2 {
   font-family: "Bevan", serif;
 }
 
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+}
+
