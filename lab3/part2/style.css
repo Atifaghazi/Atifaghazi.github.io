@@ -1,4 +1,5 @@
 /* General setup */
+
 /*  Name: Atifa Ghazi
     File: style.css 
     Date: 13 February 2026
@@ -38,3 +39,15 @@ footer {
 footer p {
   text-align: center;
 }
+
+/*eja bezan*/
+
+html {
+  font-family: "IBM Plex Serif", serif;
+}
+
+h1,
+h2 {
+  font-family: "Bevan", serif;
+}
+
