@@ -15,7 +15,7 @@ body {
   max-width: 1400px;
 }
 
-/* Layout */
+/* The Layout */
 
 main {
   display: grid;
@@ -49,8 +49,6 @@ h2 {
   font-family: "Bevan", serif;
 }
 
-/* setup */
-
 * {
   box-sizing: border-box;
 }
@@ -62,7 +60,7 @@ body {
   max-width: 1400px;
 }
 
-/* Layout */
+/* The Layout */
 
 main {
   display: grid;
@@ -83,5 +81,17 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
 }
 
