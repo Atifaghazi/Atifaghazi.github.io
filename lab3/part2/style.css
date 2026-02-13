@@ -1,5 +1,3 @@
-/* General setup */
-
 /*  Name: Atifa Ghazi
     File: style.css 
     Date: 13 February 2026
@@ -51,7 +49,7 @@ h2 {
   font-family: "Bevan", serif;
 }
 
-/* General setup */
+/* setup */
 
 * {
   box-sizing: border-box;
@@ -62,5 +60,19 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+}
+
+/* Header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
 }
 
