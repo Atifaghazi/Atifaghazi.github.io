@@ -71,3 +71,16 @@ body {
   font: 1.2em / 1.6 sans-serif;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  border: 1px solid black;
+}
+
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
