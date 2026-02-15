@@ -59,3 +59,15 @@ nav a {
 .feature {
   width: 200px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #333333;
+  margin: 0;
+  font: 1.2em / 1.6 sans-serif;
+}
+
