@@ -1,11 +1,11 @@
 /*  Name: Atifa Ghazi
     File: style.css 
-    Date: 26 February 2026
+    Date: 27 February 2026
     stylesheet for Biography page - lab 3 part 1 page
  */
 
  html {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 body {
@@ -33,7 +33,7 @@ h2 {
 }
 
 ul {
-  background-color: white;
+  background-color: #eeeeee;
   border: 5px solid purple;
   padding: 30px;
   border-radius: 20px;
