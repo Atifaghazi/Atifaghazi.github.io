@@ -27,4 +27,15 @@ input[type="text"] {
   display: block;
 }
 
+div,
+fieldset {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 10px;
+  background: #ffc125;
+  padding: 20px;
+  visibility: hidden;
+}
  
