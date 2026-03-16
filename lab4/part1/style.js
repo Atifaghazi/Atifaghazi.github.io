@@ -5,7 +5,7 @@
  */
 
 // Complete variable definitions and random functions
-
+alert("In JS file");
 const customName = document.getElementById("custom-name");
 const generateBtn = document.querySelector(".generate");
 const story = document.querySelector(".story");
