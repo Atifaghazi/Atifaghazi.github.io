@@ -5,7 +5,7 @@
  */
 
 // Complete variable definitions and random functions
-alert("In JS file");
+// alert("In JS file");
 const customName = document.getElementById("custom-name");
 const generateBtn = document.querySelector(".generate");
 const story = document.querySelector(".story");
@@ -17,17 +17,9 @@ function randomValueFromArray(array) {
 
 // Raw text strings
 
-// Willy the Goblin
-// Big Daddy
-// Father Christmas
-
-// the soup kitchen
-// Disneyland
-// the White House
-
-// spontaneously combusted
-// melted into a puddle on the sidewalk
-// turned into a slug and slithered away
+const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
+const places = ["the soup kitchen", "Disneyland", "the White House"];
+const events = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and slithered away"];
 
 // Partial return random string function
 
