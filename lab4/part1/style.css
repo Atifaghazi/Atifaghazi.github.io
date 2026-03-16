@@ -10,5 +10,9 @@ body {
   width: 500px;
 }
 
+fieldset {
+  border: 0;
+}
+
 
  
