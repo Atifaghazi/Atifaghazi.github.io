@@ -40,3 +40,9 @@ button {
   top: 2px;
   left: 2px;
 }
+
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
