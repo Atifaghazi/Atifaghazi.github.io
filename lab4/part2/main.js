@@ -32,3 +32,5 @@ newImage.addEventListener("click", (e) => {
   });
 }
 
+btn.addEventListener("click", () => {
+    const btnClass = btn.getAttribute("class");
