@@ -24,9 +24,6 @@ const events = ["spontaneously combusted", "melted into a puddle on the sidewalk
 // Partial return random string function
 
 function returnRandomStoryString() {
-  const randomCharacter = randomValueFromArray(characters);
-  const randomPlace = randomValueFromArray(places);
-  const randomEvent = randomValueFromArray(events);
 
 const storyText = `It was 94 fahrenheit outside, so :insertx: went for a walk. 
 When they got to :inserty:, they stared in horror for a few moments, 
@@ -41,7 +38,15 @@ then :insertz:. Bob saw the whole thing, but was not surprised —
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
-    let newStory = returnRandomStoryString();
+  let newStory = returnRandomStoryString();
+
+  const xItem = randomValueFromArray(insertX);
+  const yItem = randomValueFromArray(insertY);
+  const zItem = randomValueFromArray(insertZ);
+
+  newStory = newStory.replaceAll(":insertx:", xItem);
+  newStory = newStory.replaceAll(":inserty:", yItem);
+  newStory = newStory.replaceAll(":insertz:", zItem);
 
   if (customName.value !== "") {
     const name = customName.value;
