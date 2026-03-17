@@ -31,3 +31,12 @@ h1 {
   width: 640px;
   height: 480px;
 }
+
+button {
+  background: rgb(150 150 150 / 0.6);
+  border: 1px solid #999999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
