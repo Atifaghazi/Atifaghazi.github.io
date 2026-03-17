@@ -1,5 +1,5 @@
 /*  Name: Atifa Ghazi
-    File: style.js
+    File: main.js
     Date: 16 March 2026
     JavaScript for generating a random silly story! - lab 4 part 1 page
  */
