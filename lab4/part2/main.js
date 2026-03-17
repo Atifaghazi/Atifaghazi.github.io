@@ -24,6 +24,8 @@ for (const image of images) {
 newImage.setAttribute("src", `images/${image.filename}`);
   newImage.setAttribute("alt", image.alt);
 
+  newImage.setAttribute("tabindex", "0");
+
 thumbBar.appendChild(newImage);
 
 newImage.addEventListener("click", (e) => {
