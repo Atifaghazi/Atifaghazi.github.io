@@ -3,4 +3,12 @@
     Date: 17 March 2026
     Stylesheet for generating a Image gallery! - lab 4 part 2 page
  */
- 
+
+
+body {
+  font-family: sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
