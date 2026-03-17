@@ -16,13 +16,11 @@ function randomValueFromArray(array) {
 }
 
 // Raw text strings
-
 const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const insertY = ["the soup kitchen", "Disneyland", "the White House"];
 const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and slithered away"];
 
 // Partial return random string function
-
 function returnRandomStoryString() {
 
   const storyText = `It was 94 fahrenheit outside, so :insertx: went for a walk. 
@@ -34,7 +32,6 @@ then :insertz:. Bob saw the whole thing, but was not surprised —
 }
 
 // Event listener and partial generate function definition
-
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
@@ -50,7 +47,7 @@ function generateStory() {
 
   if (customName.value !== "") {
     const name = customName.value;
-    newStory = newStory.replace("Bob", name);
+    newStory = newStory.replaceAll("Bob", name);
   }
 
   if (document.getElementById("uk").checked) {
