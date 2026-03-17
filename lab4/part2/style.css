@@ -52,3 +52,9 @@ button:focus {
   gap: 2px;
   cursor: pointer;
 }
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
