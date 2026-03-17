@@ -46,3 +46,9 @@ button:focus {
   color: rgb(150 150 150 / 1);
   background-color: black;
 }
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
