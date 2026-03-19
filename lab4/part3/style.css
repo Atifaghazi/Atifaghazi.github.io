@@ -4,3 +4,7 @@
     Stylesheet for generating a Bouncing balls! - lab 4 part 3 page
  */
 
+html, body {
+  margin: 0;
+}
+
