@@ -148,4 +148,11 @@ function loop() {
     }
   }
 
-  
+  evil.draw();
+  evil.checkBounds();
+  evil.collisionDetect();
+
+  requestAnimationFrame(loop);
+}
+
+loop();
