@@ -1,5 +1,6 @@
 /*  Name: Atifa Ghazi
     File: main.js
-    Date: 19 March 2026
-    JavaScript for Object building practice generating a Bouncing balls! - lab 4 part 3 page
+    Date: 23 March 2026
+    JavaScript for Adding features to our bouncing balls demo! - lab 4 part 4 page
  */
+
