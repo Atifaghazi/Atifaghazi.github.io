@@ -110,13 +110,3 @@ button:focus {
   background-color: #eeeeee;
   cursor: pointer;
 }
-
-fieldset .separator {
-  display: inline-block; 
-  margin-right: 15px; 
-}
-
-fieldset .separator label {
-  width: auto; 
-  margin-right: 5px;  
-}
