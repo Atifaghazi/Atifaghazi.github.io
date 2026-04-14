@@ -5,10 +5,17 @@ Date: 14 April 2026
 INFT1206 Stylesheet for accessibility troubleshooting assessment - fixed wildlife bears webpage for lab5 part1.
 */
 
+* {
+  box-sizing: border-box;
+}
 
-html, body {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 html {
