@@ -158,12 +158,36 @@ footer {
   padding: 10px;
 }
 
+table {
+  width: 100%;
+  background-color: #dde;
+  border-collapse: collapse;
+}
+ 
+th, td {
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
 th[scope="col"] {
   border-bottom: 1px solid black;
+  background-color: #004a00;
+  color: #ffffff;
 }
 
 tbody tr:nth-child(odd) {
   background-color: #def;
+}
+
+caption {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #333333;
 }
 
 /* styling content images and audio */
