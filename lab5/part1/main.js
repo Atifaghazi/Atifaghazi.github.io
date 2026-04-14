@@ -50,3 +50,9 @@ function submitComment() {
   nameField.value = '';
   commentField.value = '';
 }
+
+showHideButton.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    showHideButton.click();
+  }
+});
