@@ -97,7 +97,13 @@ nav a {
   color: #ffffff;
 }
 
-div[class="nav"] .search {
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+  outline: 3px solid #ffff00;
+}
+
+nav .search {
   flex: 1;
   display: flex;
   align-items: center;
@@ -117,9 +123,9 @@ div[class="nav"] .search {
 .search input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #333;
+  background: #333333;
   border: 0;
-  color: white;
+  color: #ffffff;
 }
 
 /* || main layout */
