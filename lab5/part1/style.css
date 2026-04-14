@@ -190,8 +190,6 @@ caption {
   color: #333333;
 }
 
-/* styling content images and audio */
-
 img, audio {
   display: block;
   margin: 0 auto;
@@ -200,8 +198,6 @@ img, audio {
 audio {
   width: 500px;
 }
-
-/* Comments styling */
 
 .comments {
   background-color: #def;
@@ -212,11 +208,11 @@ audio {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
+.comments h2 {
   font-size: 2rem;
 }
 
-.comments font[size="6"]:nth-of-type(2) {
+.comments h2:nth-of-type(2) {
   margin-bottom: 0;
 }
 
@@ -251,9 +247,9 @@ audio {
 }
 
 .comment-form input[type="submit"], .show-hide {
-  background: #333;
+  background: #333333;
   border: 0;
-  color: white;
+  color: #ffffff;
 }
 
 .comment-form input[type="submit"] {
