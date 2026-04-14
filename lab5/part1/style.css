@@ -128,8 +128,6 @@ nav .search {
   color: #ffffff;
 }
 
-/* || main layout */
-
 main {
   display: flex;
 }
@@ -140,26 +138,24 @@ article {
 
 .secondary {
   flex: 2;
+  color: #ffffff;
+}
+
+.secondary a {
+  color: #ffffff;
+}
+
+
+.secondary a:hover,
+.secondary a:focus {
+  text-decoration: underline;
 }
 
 footer {
   margin-top: 10px;
-}
-
-/* Table styling */
-
-table {
-  width: 100%;
-  background-color: #dde;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 10px;
-}
-
-td {
+  color: #ffffff;
   text-align: center;
+  padding: 10px;
 }
 
 th[scope="col"] {
