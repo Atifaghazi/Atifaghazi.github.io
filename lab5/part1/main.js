@@ -51,8 +51,8 @@ function submitComment() {
   commentField.value = '';
 }
 
-showHideButton.addEventListener('keydown', function(e) {
+showHideBtn.addEventListener('keydown', function(e) { 
   if (e.key === 'Enter') {
-    showHideButton.click();
+    showHideBtn.click(); 
   }
 });
