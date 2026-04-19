@@ -96,6 +96,7 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
 nav a:hover,
@@ -159,7 +160,8 @@ article {
 }
 
 .secondary ul li a {
-  font-size: 2rem; 
+  font-size: 2rem;
+  color: #0000EE;
 }
 
 .secondary h2 {
