@@ -5,51 +5,47 @@ Date: 14 April 2026
 INFT1206 Stylesheet for accessibility troubleshooting assessment - fixed wildlife bears webpage for lab5 part1.
 */
 
-* {
-  box-sizing: border-box;
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #e6e6f5;
 }
 
 body {
   width: 80%;
+  min-width: 1024px;
   margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
-  color: #333333;
-  background-color: #e6e6f5;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-header {
-  background: transparent;
-  padding: 5px;
+h1, h2, h3 {
+  font-family: 'Sonsie One', cursive;
+  color: #2a2a2a;
+  margin-top: 0;
+}
+
+p, input, li, table, label, button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2a2a2a;
 }
 
 h1 {
-  font-family: 'Sonsie One', cursive;
-  font-size: 2rem;
-  color: #2a2a2a;
+  font-size: 4rem;
   text-align: center;
-  margin: 10px 0;
-  font-weight: normal;
-  text-shadow: none;
+  color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 h2 {
-  font-family: 'Sonsie One', cursive;
   font-size: 3rem;
   text-align: center;
-  color: #2a2a2a;
 }
 
 h3 {
-  font-family: 'Sonsie One', cursive;
   font-size: 2.2rem;
-  color: #2a2a2a;
-}
-
-p, input, li, table, label {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #2a2a2a;
 }
 
 p, li, table {
@@ -58,7 +54,7 @@ p, li, table {
 }
 
 nav, article, footer, .secondary {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 article, footer, .secondary {
@@ -67,25 +63,20 @@ article, footer, .secondary {
 
 article {
   margin-right: 10px;
-  background-color: #ffffff;
-  color: #333333;
 }
 
 nav {
   height: 50px;
   display: flex;
-  padding: 0 1%;
+  padding: 1% 0;
   margin-bottom: 10px;
 }
 
 nav ul {
   padding: 0;
   list-style-type: none;
-  flex: 4;
+  flex: 2;
   display: flex;
-  align-items: center;
-  height: 100%;
-  margin: 0;
 }
 
 nav li {
@@ -102,18 +93,12 @@ nav a {
   color: black;
 }
 
-nav a:hover,
-nav a:focus {
-  text-decoration: underline;
-  outline: 3px solid #ffff00;
-}
-
 nav .search {
   flex: 1;
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 0 1em;
+  padding: 0 2em;
 }
 
 .search input {
@@ -128,9 +113,20 @@ nav .search {
 .search input[type="submit"] {
   flex: 1;
   margin-left: 1rem;
-  background: #333333;
+  background: #333;
   border: 0;
-  color: #ffffff;
+  color: white;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 main {
@@ -142,30 +138,15 @@ article {
 }
 
 .secondary {
-  flex: 1;
-  color: #2a2a2a;
-}
-
-.secondary a {
-  color: #2a2a2a;
-}
-
-
-.secondary a:hover,
-.secondary a:focus {
-  text-decoration: underline;
+  flex: 2;
 }
 
 footer {
   margin-top: 10px;
-  color: #2a2a2a;
-  text-align: center;
-  padding: 10px;
 }
 
 table {
   width: 100%;
-  background-color: #dde;
   border-collapse: collapse;
 }
  
@@ -189,7 +170,7 @@ caption {
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 8px;
-  text-align: left;
+  text-align: center;
   color: #333333;
 }
 
