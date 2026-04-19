@@ -44,6 +44,11 @@ h2 {
   text-align: center;
 }
 
+.comparison-title {
+  text-align: center;
+  margin: 20px 0; 
+}
+
 h3 {
   font-size: 2.2rem;
 }
