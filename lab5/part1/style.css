@@ -154,6 +154,14 @@ article {
   flex: 2;
 }
 
+.secondary ul li {
+  font-size: 2rem; 
+}
+
+.secondary ul li a {
+  font-size: 2rem; 
+}
+
 footer {
   margin-top: 10px;
 }
