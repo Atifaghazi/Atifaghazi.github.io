@@ -162,6 +162,10 @@ article {
   font-size: 2rem; 
 }
 
+.secondary h2 {
+  font-size: 3.6rem;
+}
+
 footer {
   margin-top: 10px;
 }
