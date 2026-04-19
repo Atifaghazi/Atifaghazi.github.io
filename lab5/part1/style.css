@@ -93,6 +93,14 @@ nav a {
   color: black;
 }
 
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 nav .search {
   flex: 1;
   display: flex;
@@ -143,6 +151,7 @@ article {
 
 footer {
   margin-top: 10px;
+  text-align: center;
 }
 
 table {
