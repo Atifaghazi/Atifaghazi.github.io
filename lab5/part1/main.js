@@ -1,7 +1,7 @@
 /*
 Name: Atifa Ghazi
 File: main.js
-Date: 14 April 2026
+Date: 20 April 2026
 INFT1206 JavaScript for accessibility troubleshooting assessment - show/hide comments and form submission functionality for wildlife bears webpage lab5 part1.
 */
 
